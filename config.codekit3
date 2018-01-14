@@ -175,6 +175,169 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
+		},
+	"\/src\/images\/5760x3840-1284096-breakfast.jpg": {
+		"ft": 16384,
+		"iS": 3826176,
+		"oA": 0,
+		"oAP": "\/src\/images\/5760x3840-1284096-breakfast.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/src\/images\/about.jpg": {
+		"ft": 16384,
+		"iS": 54278,
+		"oA": 0,
+		"oAP": "\/src\/images\/about.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/src\/images\/background-3007395_1920.jpg": {
+		"ft": 16384,
+		"iS": 912502,
+		"oA": 0,
+		"oAP": "\/src\/images\/background-3007395_1920.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/src\/images\/cheese-1961530_1920.jpg": {
+		"ft": 16384,
+		"iS": 1001686,
+		"oA": 0,
+		"oAP": "\/src\/images\/cheese-1961530_1920.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/src\/images\/e66040bc7c97cd78f77d0d9bb6de1b01.png": {
+		"ft": 32768,
+		"iS": 1057878,
+		"oA": 0,
+		"oAP": "\/src\/images\/e66040bc7c97cd78f77d0d9bb6de1b01.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/images\/eggpant.jpg": {
+		"ft": 16384,
+		"iS": 509154,
+		"oA": 0,
+		"oAP": "\/src\/images\/eggpant.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/src\/images\/food-1050813.jpg": {
+		"ft": 16384,
+		"iS": 1288740,
+		"oA": 0,
+		"oAP": "\/src\/images\/food-1050813.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/src\/images\/lasagna-2272454_1920.jpg": {
+		"ft": 16384,
+		"iS": 456471,
+		"oA": 0,
+		"oAP": "\/src\/images\/lasagna-2272454_1920.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/src\/images\/meal-843230_1920.jpg": {
+		"ft": 16384,
+		"iS": 403825,
+		"oA": 0,
+		"oAP": "\/src\/images\/meal-843230_1920.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/src\/images\/meatballs-1992354_1920.jpg": {
+		"ft": 16384,
+		"iS": 413841,
+		"oA": 0,
+		"oAP": "\/src\/images\/meatballs-1992354_1920.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/src\/images\/pizza-2589569.jpg": {
+		"ft": 16384,
+		"iS": 6905142,
+		"oA": 0,
+		"oAP": "\/src\/images\/pizza-2589569.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/src\/images\/pizza_slider-calabresa.png": {
+		"ft": 32768,
+		"iS": 872152,
+		"oA": 0,
+		"oAP": "\/src\/images\/pizza_slider-calabresa.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/images\/plate-1.png": {
+		"ft": 32768,
+		"iS": 1364661,
+		"oA": 0,
+		"oAP": "\/src\/images\/plate-1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/images\/res-about.jpg": {
+		"ft": 16384,
+		"iS": 106469,
+		"oA": 0,
+		"oAP": "\/src\/images\/res-about.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/src\/images\/sushi-2583775_1920.jpg": {
+		"ft": 16384,
+		"iS": 361162,
+		"oA": 0,
+		"oAP": "\/src\/images\/sushi-2583775_1920.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/src\/images\/vegetables-2410708_1920.jpg": {
+		"ft": 16384,
+		"iS": 753374,
+		"oA": 0,
+		"oAP": "\/src\/images\/vegetables-2410708_1920.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		}
 	},
 "hooks": [
