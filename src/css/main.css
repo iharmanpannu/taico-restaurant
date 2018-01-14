@@ -131,7 +131,7 @@ table {
 body,
 html {
   height: 100%;
-  width: 1024px;
+  max-width: 1024px;
   margin: 0 auto;
   background-color: #FBFCF9; }
   body a,
@@ -174,11 +174,24 @@ html {
     background-repeat: no-repeat;
     background-size: cover; }
 
+@media (min-width: 768px) {
+  .navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end; }
+  #logo {
+    margin-right: auto; }
+  a {
+    padding: 2em; } }
+
 .headings {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-content: center; }
+  align-content: center;
+  text-align: center; }
   .headings h1,
   .headings h2 {
     color: #FBFCF9; }
+  .headings h1 {
+    font-size: 3em 1em; }
