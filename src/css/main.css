@@ -235,7 +235,7 @@ html {
         justify-content: center;
         text-align: center;
         padding: 1em;
-        max-width: 300px; }
+        max-width: 30%; }
         .main-res-about .res-about .reservations .res-text h2 {
           font-size: 2em;
           margin-bottom: .5em; }
@@ -254,23 +254,20 @@ html {
       display: flex;
       flex-direction: row;
       justify-content: space-between; }
+      .main-res-about .res-about .about .img-div {
+        width: 30%; }
       .main-res-about .res-about .about .about-text {
         display: flex;
         flex-direction: column;
         justify-content: center;
         text-align: center;
-        padding: 1em;
-        width: 700px; }
+        margin: 0 1em;
+        width: 60%; }
         .main-res-about .res-about .about .about-text h2 {
           font-size: 2em;
           margin-bottom: .5em; }
-        .main-res-about .res-about .about .about-text a {
-          font-size: 14px;
-          color: #D6C8A5;
-          padding: 8px 15px;
-          width: 80px;
-          margin: 0 auto;
-          border: 1px solid #D6C8A5; } }
+        .main-res-about .res-about .about .about-text p {
+          margin-bottom: .8em; } }
 
 .specialities {
   height: 50%;

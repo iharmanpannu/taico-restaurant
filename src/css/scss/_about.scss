@@ -23,7 +23,7 @@
                     justify-content: center;
                     text-align: center;
                     padding: 1em;
-                    max-width: 300px;
+                    max-width: 30%;
                     h2 {
                         font-size: 2em;
                         margin-bottom: .5em;
@@ -49,29 +49,21 @@
                 flex-direction: row;
                 justify-content: space-between;
                 .img-div {
-                    // width: 300px;
+                    width: 30%;
                 }
                 .about-text {
                     display: flex;
                     flex-direction: column;
                     justify-content: center;
                     text-align: center;
-                    padding: 1em;
-                    width: 700px;
+                    margin: 0 1em;
+                    width: 60%;
                     h2 {
                         font-size: 2em;
                         margin-bottom: .5em;
                     }
                     p {
-                        // margin-bottom: .8em;
-                    }
-                    a {
-                        font-size: 14px;
-                        color: $col-gold;
-                        padding: 8px 15px;
-                        width: 80px;
-                        margin: 0 auto;
-                        border: 1px solid $col-gold;
+                        margin-bottom: .8em;
                     }
                 }
             }
