@@ -10,10 +10,12 @@ html {
     a,
     p {
         font-family: 'Pompiere', cursive;
+        font-size: .7rem;
     }
     a,
     li {
         color: $col-white;
+        text-transform: uppercase;
     }
     p {
         color: $col-gray;
@@ -25,6 +27,7 @@ html {
     h5,
     h6,
     li {
+        font-size: 2rem;
         font-family: 'Vibur', cursive;
     }
     .wrapper {
@@ -36,3 +39,5 @@ html {
         background-size: cover;
     }
 }
+
+// ;

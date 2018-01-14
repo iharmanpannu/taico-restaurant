@@ -138,12 +138,14 @@ html {
   body p,
   html a,
   html p {
-    font-family: 'Pompiere', cursive; }
+    font-family: 'Pompiere', cursive;
+    font-size: .7rem; }
   body a,
   body li,
   html a,
   html li {
-    color: #FBFCF9; }
+    color: #FBFCF9;
+    text-transform: uppercase; }
   body p,
   html p {
     color: #D7D4CD; }
@@ -161,6 +163,7 @@ html {
   html h5,
   html h6,
   html li {
+    font-size: 2rem;
     font-family: 'Vibur', cursive; }
   body .wrapper,
   html .wrapper {
@@ -170,3 +173,12 @@ html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; }
+
+.headings {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center; }
+  .headings h1,
+  .headings h2 {
+    color: #FBFCF9; }
