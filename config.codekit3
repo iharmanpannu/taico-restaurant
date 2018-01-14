@@ -36,7 +36,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/src\/css\/sass\/_about.scss": {
+	"\/src\/css\/scss\/_about.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -44,12 +44,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/src\/css\/sass\/_about.css",
+		"oAP": "\/src\/css\/scss\/_about.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/src\/css\/sass\/_footer.scss": {
+	"\/src\/css\/scss\/_footer.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -57,12 +57,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/src\/css\/sass\/_footer.css",
+		"oAP": "\/src\/css\/scss\/_footer.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/src\/css\/sass\/_global.scss": {
+	"\/src\/css\/scss\/_global.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -70,12 +70,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/src\/css\/sass\/_global.css",
+		"oAP": "\/src\/css\/scss\/_global.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/src\/css\/sass\/_header.scss": {
+	"\/src\/css\/scss\/_header.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -83,12 +83,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/src\/css\/sass\/_header.css",
+		"oAP": "\/src\/css\/scss\/_header.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/src\/css\/sass\/_menu.scss": {
+	"\/src\/css\/scss\/_menu.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -96,12 +96,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/src\/css\/sass\/_menu.css",
+		"oAP": "\/src\/css\/scss\/_menu.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/src\/css\/sass\/_nav.scss": {
+	"\/src\/css\/scss\/_nav.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -109,12 +109,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/src\/css\/sass\/_nav.css",
+		"oAP": "\/src\/css\/scss\/_nav.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/src\/css\/sass\/_special.scss": {
+	"\/src\/css\/scss\/_special.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -122,12 +122,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/src\/css\/sass\/_special.css",
+		"oAP": "\/src\/css\/scss\/_special.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/src\/css\/sass\/_specialties.scss": {
+	"\/src\/css\/scss\/_specialties.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -135,12 +135,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/src\/css\/sass\/_specialties.css",
+		"oAP": "\/src\/css\/scss\/_specialties.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"\/src\/css\/sass\/_variables.scss": {
+	"\/src\/css\/scss\/_variables.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -148,7 +148,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/src\/css\/sass\/_variables.css",
+		"oAP": "\/src\/css\/scss\/_variables.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
