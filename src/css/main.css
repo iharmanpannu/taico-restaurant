@@ -126,3 +126,15 @@ q:before, q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0; }
+
+body,
+html {
+  height: 100%; }
+  body .wrapper,
+  html .wrapper {
+    height: 100%;
+    background-image: url("https://image.ibb.co/kZgVHR/food_1050813.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
