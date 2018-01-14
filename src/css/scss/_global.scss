@@ -1,9 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Pompiere|Vibur');
+// font-family: 'Vibur', cursive;
+// font-family: 'Pompiere', cursive;
 body,
 html {
     height: 100%;
     width: 1024px;
     margin: 0 auto;
-    background: $col_dark;
+    background-color: $col-white;
+    a,
+    p {
+        font-family: 'Pompiere', cursive;
+    }
+    a,
+    li {
+        color: $col-white;
+    }
+    p {
+        color: $col-gray;
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: 'Vibur', cursive;
+    }
     .wrapper {
         height: 100vh;
         background-image: url('https://image.ibb.co/f4aXxR/pizza_2589569.jpg');
