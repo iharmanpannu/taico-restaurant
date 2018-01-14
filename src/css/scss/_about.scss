@@ -1,8 +1,5 @@
 @media (min-width: 768px) {
     .main-res-about {
-        // position: relative;
-        background: yellow;
-        // height: 600px;
         .res-about {
             // display: flex;
             // max-width: 80%;
@@ -14,9 +11,6 @@
             // bottom: 100%;
             // transform: translateY(100px);
             .reservations {
-                display: flex;
-                flex-direction: row;
-                justify-content: space-between;
                 .res-text {
                     display: flex;
                     flex-direction: column;
@@ -45,12 +39,6 @@
                 }
             }
             .about {
-                display: flex;
-                flex-direction: row;
-                justify-content: space-between;
-                .img-div {
-                    width: 30%;
-                }
                 .about-text {
                     display: flex;
                     flex-direction: column;

@@ -188,12 +188,23 @@
 		},
 	"\/src\/images\/about.jpg": {
 		"ft": 16384,
-		"iS": 54278,
+		"iS": 54689,
 		"oA": 0,
 		"oAP": "\/src\/images\/about.jpg",
 		"oF": 0,
 		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/src\/images\/background img.png": {
+		"ft": 32768,
+		"iS": 412173,
+		"oA": 0,
+		"oAP": "\/src\/images\/background img.png",
+		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/src\/images\/background-3007395_1920.jpg": {
@@ -324,6 +335,16 @@
 		"iS": 361162,
 		"oA": 0,
 		"oAP": "\/src\/images\/sushi-2583775_1920.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/src\/images\/two_types_of_wine_1761613_1920.jpg": {
+		"ft": 16384,
+		"iS": 203396,
+		"oA": 0,
+		"oAP": "\/src\/images\/two_types_of_wine_1761613_1920.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
