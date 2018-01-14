@@ -131,7 +131,7 @@ table {
 body,
 html {
   height: 100%;
-  max-width: 1024px;
+  max-width: 960px;
   margin: 0 auto;
   background-color: #F7F5F2; }
   body a,
@@ -205,7 +205,7 @@ html {
     font-size: .8rem; } }
 
 .header {
-  background: rgba(68, 67, 69, 0.5);
+  background: rgba(62, 59, 74, 0.5);
   height: 100%; }
   .header .headings {
     position: absolute;
@@ -292,7 +292,7 @@ html {
 .specialities {
   height: 500px;
   width: 100%;
-  background: url("https://image.ibb.co/hJ7nxR/background_3007395_1920.jpg");
+  background: linear-gradient(rgba(62, 59, 74, 0.5), rgba(62, 59, 74, 0.5)), url("https://image.ibb.co/hJ7nxR/background_3007395_1920.jpg");
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
