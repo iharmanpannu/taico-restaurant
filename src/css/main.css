@@ -153,12 +153,14 @@ html {
   body h4,
   body h5,
   body h6,
+  body li,
   html h1,
   html h2,
   html h3,
   html h4,
   html h5,
-  html h6 {
+  html h6,
+  html li {
     font-family: 'Vibur', cursive; }
   body .wrapper,
   html .wrapper {
