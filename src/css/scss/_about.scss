@@ -1,23 +1,62 @@
-@media (min-width: 768px) {
-    .main-res-about {
-        .res-about {
-            // display: flex;
-            // max-width: 80%;
-            // margin: 0 auto;
-            // flex-direction: column;
-            // border: 2px solid tomato;
-            // position: absolute;
-            // top: -10%;
-            // bottom: 100%;
-            // transform: translateY(100px);
-            .reservations {
+    @media (min-width: 768px) {
+        .main-res-about {
+            position: relative;
+            height: 400px;
+            .float {
+                position: absolute;
+                max-width: 800px;
+                max-height: 600px;
+                top: -11%;
+                left: 11%;
+                right: 10%;
+                bottom: 0;
+            }
+            .res-about {
+                background: #ffffff;
+                display: grid;
+                margin: auto;
+                grid-auto-columns: 1fr 2fr;
+                grid-auto-rows: 1fr 1fr;
+                grid-template-areas: "a b" "c d";
+                // border: 1px solid salmon;
+                // max-width: 80%;
+                // margin: 0 auto;
+                // flex-direction: column;
+                // border: 2px solid tomato;
+                // position: absolute;
+                // top: -10%;
+                // bottom: 100%;
+                // transform: translateY(100px);
+                .a {
+                    grid-area: a;
+                    max-width: 300px;
+                    max-height: 300px;
+                }
+                .b {
+                    grid-area: b;
+                    background: url('../images/res-about.jpg');
+                    background-position: center;
+                    background-size: cover;
+                    height: 250px;
+                    ;
+                }
+                .c {
+                    grid-area: c;
+                    background: url('../images/about.jpg');
+                    // max-height: 300px;
+                    // max-width: 300px;
+                }
+                .d {
+                    grid-area: d;
+                    max-height: 300px;
+                }
                 .res-text {
                     display: flex;
                     flex-direction: column;
                     justify-content: center;
                     text-align: center;
                     padding: 1em;
-                    max-width: 30%;
+                    // max-width: 30%;
                     h2 {
                         font-size: 2em;
                         margin-bottom: .5em;
@@ -34,27 +73,22 @@
                         border: 1px solid $col-gold;
                     }
                 }
-                img {
-                    max-width: 100%;
-                }
             }
-            .about {
-                .about-text {
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-                    text-align: center;
-                    margin: 0 1em;
-                    width: 60%;
-                    h2 {
-                        font-size: 2em;
-                        margin-bottom: .5em;
-                    }
-                    p {
-                        margin-bottom: .8em;
-                    }
+            .about-text {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                text-align: center;
+                margin: 0 auto;
+                width: 70%;
+                padding: 1em;
+                h2 {
+                    font-size: 2em;
+                    margin-bottom: .5em;
+                }
+                p {
+                    margin-bottom: .8em;
                 }
             }
         }
     }
-}

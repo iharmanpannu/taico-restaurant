@@ -133,7 +133,7 @@ html {
   height: 100%;
   max-width: 1024px;
   margin: 0 auto;
-  background-color: #FBFCF9; }
+  background-color: #F7F5F2; }
   body a,
   body p,
   html a,
@@ -223,46 +223,86 @@ html {
       font-size: 2rem; }
 
 @media (min-width: 768px) {
-  .main-res-about .res-about .reservations .res-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    padding: 1em;
-    max-width: 30%; }
-    .main-res-about .res-about .reservations .res-text h2 {
-      font-size: 2em;
-      margin-bottom: .5em; }
-    .main-res-about .res-about .reservations .res-text p {
-      margin-bottom: .8em; }
-    .main-res-about .res-about .reservations .res-text a {
-      font-size: 14px;
-      color: #D6C8A5;
-      padding: 8px 15px;
-      width: 80px;
+  .main-res-about {
+    position: relative;
+    height: 400px; }
+    .main-res-about .float {
+      position: absolute;
+      max-width: 800px;
+      max-height: 600px;
+      top: -11%;
+      left: 11%;
+      right: 10%;
+      bottom: 0; }
+    .main-res-about .res-about {
+      background: #ffffff;
+      display: grid;
+      margin: auto;
+      grid-auto-columns: 1fr 2fr;
+      grid-auto-rows: 1fr 1fr;
+      grid-template-areas: "a b" "c d"; }
+      .main-res-about .res-about .a {
+        grid-area: a;
+        max-width: 300px;
+        max-height: 300px; }
+      .main-res-about .res-about .b {
+        grid-area: b;
+        background: url("../images/res-about.jpg");
+        background-position: center;
+        background-size: cover;
+        height: 250px; }
+      .main-res-about .res-about .c {
+        grid-area: c;
+        background: url("../images/about.jpg"); }
+      .main-res-about .res-about .d {
+        grid-area: d;
+        max-height: 300px; }
+      .main-res-about .res-about .res-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding: 1em; }
+        .main-res-about .res-about .res-text h2 {
+          font-size: 2em;
+          margin-bottom: .5em; }
+        .main-res-about .res-about .res-text p {
+          margin-bottom: .8em; }
+        .main-res-about .res-about .res-text a {
+          font-size: 14px;
+          color: #D6C8A5;
+          padding: 8px 15px;
+          width: 80px;
+          margin: 0 auto;
+          border: 1px solid #D6C8A5; }
+    .main-res-about .about-text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
       margin: 0 auto;
-      border: 1px solid #D6C8A5; }
-  .main-res-about .res-about .reservations img {
-    max-width: 100%; }
-  .main-res-about .res-about .about .about-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    margin: 0 1em;
-    width: 60%; }
-    .main-res-about .res-about .about .about-text h2 {
-      font-size: 2em;
-      margin-bottom: .5em; }
-    .main-res-about .res-about .about .about-text p {
-      margin-bottom: .8em; } }
+      width: 70%;
+      padding: 1em; }
+      .main-res-about .about-text h2 {
+        font-size: 2em;
+        margin-bottom: .5em; }
+      .main-res-about .about-text p {
+        margin-bottom: .8em; } }
 
 .specialities {
-  height: 50%;
+  height: 500px;
   width: 100%;
   background: url("https://image.ibb.co/hJ7nxR/background_3007395_1920.jpg");
   background-position: center;
-  background-size: cover; }
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center; }
+  .specialities h2 {
+    color: #FBFCF9;
+    font-size: 4rem; }
 
 .menu-header {
   width: 100%;
