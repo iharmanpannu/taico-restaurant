@@ -150,7 +150,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/src\/css\/scss\/_specialties.scss": {
+	"\/src\/css\/scss\/_specialities.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -158,7 +158,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/src\/css\/scss\/_specialties.css",
+		"oAP": "\/src\/css\/scss\/_specialities.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

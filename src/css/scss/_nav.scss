@@ -1,3 +1,7 @@
+.logo {
+    text-transform: capitalize;
+}
+
 .navigation {
     display: none;
 }
@@ -6,11 +10,10 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    .logo {
-        font-size: .8rem;
-    }
+    .logo,
     .fa-bars {
         font-size: .8rem;
+        padding: 1em .5em;
     }
 }
 
@@ -26,7 +29,11 @@
     .logo {
         margin-right: auto;
     }
+    li,
+    .logo {
+        padding: 1em .6em;
+    }
     a {
-        padding: .7em;
+        font-size: .8rem;
     }
 }

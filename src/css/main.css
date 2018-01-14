@@ -165,12 +165,16 @@ html {
     font-family: 'Vibur', cursive; }
   body .wrapper,
   html .wrapper {
-    height: 100vh;
+    position: relative;
+    height: 100%;
     background-image: url("https://image.ibb.co/f4aXxR/pizza_2589569.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; }
+
+.logo {
+  text-transform: capitalize; }
 
 .navigation {
   display: none; }
@@ -179,10 +183,10 @@ html {
   display: flex;
   flex-direction: row;
   justify-content: space-between; }
-  .nav-mobile .logo {
-    font-size: .8rem; }
+  .nav-mobile .logo,
   .nav-mobile .fa-bars {
-    font-size: .8rem; }
+    font-size: .8rem;
+    padding: 1em .5em; }
 
 @media (min-width: 768px) {
   .nav-mobile {
@@ -193,21 +197,40 @@ html {
     justify-content: flex-end; }
   .logo {
     margin-right: auto; }
+  li,
+  .logo {
+    padding: 1em .6em; }
   a {
-    padding: .7em; } }
+    font-size: .8rem; } }
 
-.headings {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
-  padding: 0 10px;
-  text-align: center; }
-  .headings h1,
-  .headings h2 {
-    color: #FBFCF9; }
-  .headings h1 {
-    font-size: 5rem; }
-  .headings h2 {
-    font-size: 2rem; }
+.header {
+  background: rgba(68, 67, 69, 0.5);
+  height: 100%; }
+  .header .headings {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    text-align: center; }
+    .header .headings h1,
+    .header .headings h2 {
+      color: #FBFCF9; }
+    .header .headings h1 {
+      font-size: 5rem; }
+    .header .headings h2 {
+      font-size: 2rem; }
+
+.specialities {
+  height: 50%;
+  width: 100%;
+  background: url("https://image.ibb.co/hJ7nxR/background_3007395_1920.jpg");
+  background-position: center;
+  background-size: cover; }
+
+.menu-header {
+  width: 100%;
+  height: 50%;
+  background: url("https://image.ibb.co/hDUT46/cheese_1961530_1920.jpg");
+  background-position: center;
+  background-size: cover; }

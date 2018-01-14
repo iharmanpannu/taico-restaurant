@@ -29,7 +29,8 @@ html {
         font-family: 'Vibur', cursive;
     }
     .wrapper {
-        height: 100vh;
+        position: relative;
+        height: 100%;
         background-image: url('https://image.ibb.co/f4aXxR/pizza_2589569.jpg');
         background-attachment: fixed;
         background-position: center;
@@ -37,5 +38,3 @@ html {
         background-size: cover;
     }
 }
-
-;
