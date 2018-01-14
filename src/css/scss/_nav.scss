@@ -1,13 +1,32 @@
+.navigation {
+    display: none;
+}
+
+.nav-mobile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .logo {
+        font-size: .8rem;
+    }
+    .fa-bars {
+        font-size: .8rem;
+    }
+}
+
 @media (min-width: 768px) {
+    .nav-mobile {
+        display: none;
+    }
     .navigation {
         display: flex;
         flex-direction: row;
         justify-content: flex-end;
     }
-    #logo {
+    .logo {
         margin-right: auto;
     }
     a {
-        padding: 2em;
+        padding: .7em;
     }
 }
