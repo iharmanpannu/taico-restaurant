@@ -101,6 +101,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/src\/css\/sass\/_nav.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/src\/css\/sass\/_nav.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/src\/css\/sass\/_special.scss": {
 		"aP": 0,
 		"bl": 0,
