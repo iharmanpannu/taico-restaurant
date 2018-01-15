@@ -246,13 +246,14 @@ hr {
   animation-duration: 3s;
   animation-delay: 0s; }
 
+.main-res-about h2 {
+  font-size: 1.5em;
+  margin-bottom: .5em; }
+
 @media (min-width: 768px) {
   .main-res-about {
     position: relative;
     height: 350px; }
-    .main-res-about h2 {
-      font-size: 1.5em;
-      margin-bottom: .5em; }
     .main-res-about p {
       margin-bottom: .8em;
       font-size: 10px;
