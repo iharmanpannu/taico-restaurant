@@ -179,6 +179,13 @@ html {
     border: 1px solid #222222;
     background-color: #FBFCF9; }
 
+hr {
+  width: 5%;
+  height: 2px;
+  background-color: #D6C8A5;
+  border: none;
+  margin: 0 auto; }
+
 .logo {
   text-transform: capitalize; }
 
@@ -189,11 +196,8 @@ html {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center; }
-  .nav-mobile .logo,
-  .nav-mobile .fa-bars {
-    font-size: .8rem;
-    padding: 1em .5em; }
+  align-items: center;
+  padding: 1em; }
 
 @media (min-width: 768px) {
   .nav-mobile {
@@ -378,12 +382,6 @@ html {
   .menu h3 {
     font-size: 2em;
     margin-bottom: 5px; }
-  .menu hr {
-    width: 5%;
-    height: 2px;
-    background-color: #D6C8A5;
-    border: none;
-    margin: 0 auto; }
   .menu h4 {
     margin: 2em 0;
     text-transform: uppercase; }
@@ -422,3 +420,19 @@ html {
           color: #D6C8A5;
           font-size: 1.4rem;
           float: right; } }
+
+.footer {
+  text-align: center; }
+  .footer ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1em 0; }
+  .footer li {
+    padding: 0 .5em; }
+  .footer a {
+    color: #D6C8A5;
+    font-size: 1em; }
+  .footer .author {
+    margin-bottom: 3em;
+    color: #D6C8A5; }

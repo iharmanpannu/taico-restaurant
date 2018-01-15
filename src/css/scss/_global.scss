@@ -53,3 +53,11 @@ html {
         // background-size: cover;
     }
 }
+
+hr {
+    width: 5%;
+    height: 2px;
+    background-color: $col-gold;
+    border: none;
+    margin: 0 auto;
+}
