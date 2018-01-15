@@ -184,7 +184,8 @@ html {
 .nav-mobile {
   display: flex;
   flex-direction: row;
-  justify-content: space-between; }
+  justify-content: space-between;
+  align-items: center; }
   .nav-mobile .logo,
   .nav-mobile .fa-bars {
     font-size: .8rem;
@@ -228,6 +229,14 @@ html {
       font-size: 5rem; }
     .header .headings h2 {
       font-size: 2rem; }
+
+.slideInRight {
+  animation-duration: 3s;
+  animation-delay: 0s; }
+
+.slideInLeft {
+  animation-duration: 3s;
+  animation-delay: 0s; }
 
 @media (min-width: 768px) {
   .main-res-about {
