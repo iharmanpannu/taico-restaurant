@@ -1,26 +1,41 @@
 .main-res-about {
-    height: 720px;
+    // height: 720px;
     text-align: center;
-    h2 {
-        font-size: 2em;
-        padding: .5em 0;
-    }
-    p {
-        margin-bottom: .8em;
-        font-size: 14px;
-        padding: 0 10px;
-    }
-    .b {
-        background: url('../images/res-about.jpg');
-        background-position: center;
-        background-size: cover;
-        height: 200px;
-    }
-    .c {
-        height: 200px;
-        background: url('../images/about.jpg');
-        background-position: center;
-        background-size: cover;
+    .res-about {
+        background: #ffffff;
+        display: grid;
+        grid-auto-columns: 1fr;
+        grid-auto-rows: 1fr;
+        grid-template-areas: "a" "b" "d" "c";
+        .a {
+            grid-area: a;
+        }
+        .b {
+            grid-area: b;
+            background: url('../images/res-about.jpg');
+            background-position: center;
+            background-size: cover;
+            height: 300px;
+        }
+        .c {
+            grid-area: c;
+            height: 300px;
+            background: url('../images/about.jpg');
+            background-position: center;
+            background-size: cover;
+        }
+        .d {
+            grid-area: d;
+        }
+        h2 {
+            font-size: 2em;
+            padding: .5em 0;
+        }
+        p {
+            margin-bottom: .8em;
+            font-size: 14px;
+            padding: 0 10px;
+        }
     }
 }
 
@@ -47,27 +62,17 @@
             z-index: 1000;
         }
         .res-about {
-            background: #ffffff;
-            display: grid;
-            margin: auto;
             grid-auto-columns: 1fr 2fr;
             grid-auto-rows: 1fr 1fr;
             grid-template-areas: "a b" "c d";
             .a {
-                grid-area: a;
                 max-width: 300px;
                 max-height: 200px;
             }
-            .b {
-                grid-area: b;
-                ;
-            }
             .c {
-                grid-area: c;
                 max-height: 200px;
             }
             .d {
-                grid-area: d;
                 max-height: 200px;
             }
             .res-text {
