@@ -268,11 +268,11 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/src\/images\/meal-843230_1920.jpg": {
+	"\/src\/images\/meal.jpg": {
 		"ft": 16384,
 		"iS": 403825,
 		"oA": 0,
-		"oAP": "\/src\/images\/meal-843230_1920.jpg",
+		"oAP": "\/src\/images\/meal.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -303,6 +303,17 @@
 		"iS": 872152,
 		"oA": 0,
 		"oAP": "\/src\/images\/pizza_slider-calabresa.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/src\/images\/pizzaonside.png": {
+		"ft": 32768,
+		"iS": 428321,
+		"oA": 0,
+		"oAP": "\/src\/images\/pizzaonside.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

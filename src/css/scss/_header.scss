@@ -1,6 +1,12 @@
 .header {
-    background: rgba(62, 59, 74, .5);
-    height: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(62, 59, 74, .4), rgba(62, 59, 74, .4)), url('https://image.ibb.co/f4aXxR/pizza_2589569.jpg');
+    filter: brightness(1.2);
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     .headings {
         position: absolute;
         top: 50%;

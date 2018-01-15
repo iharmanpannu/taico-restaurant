@@ -1,15 +1,26 @@
-@import url('https://fonts.googleapis.com/css?family=Pompiere|Vibur');
-// font-family: 'Vibur', cursive;
-// font-family: 'Pompiere', cursive;
+@import url('https://fonts.googleapis.com/css?family=Bellefair|Great+Vibes');
+// font-family: 'Dosis', sans-serif;
+// font-family: 'Great Vibes', cursive;
 body,
 html {
     height: 100%;
     max-width: 960px;
     margin: 0 auto;
-    background-color: #F7F5F2;
-    a,
-    p {
-        font-family: 'Pompiere', cursive;
+    background: linear-gradient(rgba(47, 47, 47, .9), rgba(47, 47, 47, 0.9)), url('https://image.ibb.co/hDUT46/cheese_1961530_1920.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    a {
+        font-family: 'Bellefair', sans-serif;
+        text-decoration: none;
+        font-size: .7rem;
+    }
+    p,
+    h4,
+    h5,
+    h6 {
+        font-family: 'Bellefair', serif;
         line-height: 1.3;
     }
     a,
@@ -23,19 +34,17 @@ html {
     h1,
     h2,
     h3,
-    h4,
-    h5,
-    h6,
     li {
-        font-family: 'Vibur', cursive;
+        font-family: 'Great Vibes', cursive;
     }
     .wrapper {
-        position: relative;
-        height: 100%;
-        background-image: url('https://image.ibb.co/f4aXxR/pizza_2589569.jpg');
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
+        // background-image: url('https://image.ibb.co/f4aXxR/pizza_2589569.jpg');
+        // position: relative;
+        // height: 100%;
+        background-color: $col-white;
+        // background-attachment: fixed;
+        // background-position: center;
+        // background-repeat: no-repeat;
+        // background-size: cover;
     }
 }
