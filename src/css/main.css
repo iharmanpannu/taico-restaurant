@@ -128,12 +128,15 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+* {
+  box-sizing: border-box; }
+
 body,
 html {
   height: 100%;
   max-width: 960px;
   margin: 0 auto;
-  background: linear-gradient(rgba(47, 47, 47, 0.9), rgba(47, 47, 47, 0.9)), url("https://image.ibb.co/hDUT46/cheese_1961530_1920.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://image.ibb.co/hDUT46/cheese_1961530_1920.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -173,6 +176,7 @@ html {
     font-family: 'Great Vibes', cursive; }
   body .wrapper,
   html .wrapper {
+    border: 1px solid #222222;
     background-color: #FBFCF9; }
 
 .logo {
@@ -208,7 +212,7 @@ html {
 
 .header {
   height: 100vh;
-  background-image: linear-gradient(rgba(62, 59, 74, 0.4), rgba(62, 59, 74, 0.4)), url("https://image.ibb.co/f4aXxR/pizza_2589569.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url("https://image.ibb.co/f4aXxR/pizza_2589569.jpg");
   filter: brightness(1.2);
   position: relative;
   background-attachment: fixed;
@@ -241,12 +245,19 @@ html {
 @media (min-width: 768px) {
   .main-res-about {
     position: relative;
-    height: 400px; }
+    height: 350px; }
+    .main-res-about h2 {
+      font-size: 1.5em;
+      margin-bottom: .5em; }
+    .main-res-about p {
+      margin-bottom: .8em;
+      font-size: 10px;
+      padding: 0 10px; }
     .main-res-about .float {
       position: absolute;
       max-width: 800px;
-      max-height: 600px;
-      top: -11%;
+      max-height: 400px;
+      top: -8%;
       left: 11%;
       right: 10%;
       bottom: 0;
@@ -261,34 +272,31 @@ html {
       .main-res-about .res-about .a {
         grid-area: a;
         max-width: 300px;
-        max-height: 300px; }
+        max-height: 200px; }
       .main-res-about .res-about .b {
         grid-area: b;
         background: url("../images/res-about.jpg");
         background-position: center;
         background-size: cover;
-        height: 250px; }
+        height: 200px; }
       .main-res-about .res-about .c {
         grid-area: c;
-        background: url("../images/about.jpg"); }
+        background: url("../images/about.jpg");
+        background-position: center;
+        background-size: cover;
+        max-height: 200px; }
       .main-res-about .res-about .d {
         grid-area: d;
-        max-height: 300px; }
+        max-height: 200px; }
       .main-res-about .res-about .res-text {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        text-align: center;
-        padding: 1em; }
-        .main-res-about .res-about .res-text h2 {
-          font-size: 2em;
-          margin-bottom: .5em; }
-        .main-res-about .res-about .res-text p {
-          margin-bottom: .8em; }
+        text-align: center; }
         .main-res-about .res-about .res-text a {
-          font-size: 14px;
+          font-size: 8px;
           color: #D6C8A5;
-          padding: 8px 15px;
+          padding: 4px 7px;
           width: 80px;
           margin: 0 auto;
           border: 1px solid #D6C8A5; }
@@ -299,17 +307,12 @@ html {
       text-align: center;
       margin: 0 auto;
       width: 70%;
-      padding: 1em; }
-      .main-res-about .about-text h2 {
-        font-size: 2em;
-        margin-bottom: .5em; }
-      .main-res-about .about-text p {
-        margin-bottom: .8em; } }
+      padding: 1em; } }
 
 .specialities {
-  height: 500px;
+  height: 350px;
   width: 100%;
-  background: linear-gradient(rgba(62, 59, 74, 0.4), rgba(62, 59, 74, 0.4)), url("https://image.ibb.co/hJ7nxR/background_3007395_1920.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://image.ibb.co/hJ7nxR/background_3007395_1920.jpg");
   filter: brightness(1.2);
   background-position: center;
   background-attachment: fixed;
@@ -320,25 +323,30 @@ html {
   text-align: center; }
   .specialities h2 {
     color: #FBFCF9;
-    font-size: 4rem; }
+    font-size: 2.5rem; }
 
 .special {
   position: relative;
-  height: 300px; }
+  height: 350px; }
   .special .float {
     position: absolute;
-    top: -11%;
+    top: 21%;
     left: 11%;
     right: 10%;
     bottom: 0;
     z-index: 999; }
   .special .special-items {
-    background: #fff;
+    height: 200px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     text-align: center; }
+    .special .special-items img {
+      width: 200px;
+      height: 200px; }
+    .special .special-items div {
+      background: #fff; }
     .special .special-items h5,
     .special .special-items h6 {
       text-transform: uppercase;
@@ -350,9 +358,9 @@ html {
       color: #D6C8A5; }
 
 .menu-header {
-  height: 300px;
+  height: 350px;
   width: 100%;
-  background: linear-gradient(rgba(62, 59, 74, 0.4), rgba(62, 59, 74, 0.4)), url("../images/meal.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/cheese.jpg");
   filter: brightness(1.2);
   background-position: center;
   background-attachment: fixed;
