@@ -246,18 +246,36 @@ hr {
   animation-duration: 3s;
   animation-delay: 0s; }
 
-.main-res-about h2 {
-  font-size: 1.5em;
-  margin-bottom: .5em; }
+.main-res-about {
+  height: 720px;
+  text-align: center; }
+  .main-res-about h2 {
+    font-size: 2em;
+    padding: .5em 0; }
+  .main-res-about p {
+    margin-bottom: .8em;
+    font-size: 14px;
+    padding: 0 10px; }
+  .main-res-about .b {
+    background: url("../images/res-about.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 200px; }
+  .main-res-about .c {
+    height: 200px;
+    background: url("../images/about.jpg");
+    background-position: center;
+    background-size: cover; }
 
 @media (min-width: 768px) {
   .main-res-about {
     position: relative;
     height: 350px; }
+    .main-res-about h2 {
+      margin-bottom: .5em;
+      padding: 0; }
     .main-res-about p {
-      margin-bottom: .8em;
-      font-size: 10px;
-      padding: 0 10px; }
+      font-size: 12px; }
     .main-res-about .float {
       position: absolute;
       max-width: 800px;
@@ -279,16 +297,9 @@ hr {
         max-width: 300px;
         max-height: 200px; }
       .main-res-about .res-about .b {
-        grid-area: b;
-        background: url("../images/res-about.jpg");
-        background-position: center;
-        background-size: cover;
-        height: 200px; }
+        grid-area: b; }
       .main-res-about .res-about .c {
         grid-area: c;
-        background: url("../images/about.jpg");
-        background-position: center;
-        background-size: cover;
         max-height: 200px; }
       .main-res-about .res-about .d {
         grid-area: d;

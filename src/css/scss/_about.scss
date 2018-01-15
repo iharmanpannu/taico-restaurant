@@ -1,7 +1,26 @@
 .main-res-about {
+    height: 720px;
+    text-align: center;
     h2 {
-        font-size: 1.5em;
-        margin-bottom: .5em;
+        font-size: 2em;
+        padding: .5em 0;
+    }
+    p {
+        margin-bottom: .8em;
+        font-size: 14px;
+        padding: 0 10px;
+    }
+    .b {
+        background: url('../images/res-about.jpg');
+        background-position: center;
+        background-size: cover;
+        height: 200px;
+    }
+    .c {
+        height: 200px;
+        background: url('../images/about.jpg');
+        background-position: center;
+        background-size: cover;
     }
 }
 
@@ -9,10 +28,13 @@
     .main-res-about {
         position: relative;
         height: 350px;
+        h2 {
+            margin-bottom: .5em;
+            ;
+            padding: 0;
+        }
         p {
-            margin-bottom: .8em;
-            font-size: 10px;
-            padding: 0 10px;
+            font-size: 12px;
         }
         .float {
             position: absolute;
@@ -31,15 +53,6 @@
             grid-auto-columns: 1fr 2fr;
             grid-auto-rows: 1fr 1fr;
             grid-template-areas: "a b" "c d";
-            // border: 1px solid salmon;
-            // max-width: 80%;
-            // margin: 0 auto;
-            // flex-direction: column;
-            // border: 2px solid tomato;
-            // position: absolute;
-            // top: -10%;
-            // bottom: 100%;
-            // transform: translateY(100px);
             .a {
                 grid-area: a;
                 max-width: 300px;
@@ -47,19 +60,11 @@
             }
             .b {
                 grid-area: b;
-                background: url('../images/res-about.jpg');
-                background-position: center;
-                background-size: cover;
-                height: 200px;
                 ;
             }
             .c {
                 grid-area: c;
-                background: url('../images/about.jpg');
-                background-position: center;
-                background-size: cover;
                 max-height: 200px;
-                // max-width: 300px;
             }
             .d {
                 grid-area: d;
