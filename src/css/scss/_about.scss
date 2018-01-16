@@ -31,7 +31,7 @@
         }
         h2 {
             font-size: 1.8rem;
-            padding: 1em 0;
+            padding: .5em 0;
         }
         p {
             margin-bottom: .5em;
@@ -58,7 +58,7 @@
 @media (min-width: 768px) {
     .main-res-about {
         position: relative;
-        height: 320px;
+        height: 330px;
         .float {
             position: absolute;
             max-width: 800px;
@@ -82,11 +82,6 @@
             }
             .d {
                 max-height: 200px;
-            }
-        }
-        .res-text {
-            a {
-                margin: 10px 0;
             }
         }
         .about-text {

@@ -1,1 +1,1 @@
-AOS.init({duration:1e3});
+function mainNavToggle(){mainNav.classList.toggle("hide-tog")}AOS.init({duration:1e3});const open=document.getElementById("open-tog"),mainNav=document.getElementById("main-nav");open.addEventListener("click",mainNavToggle);

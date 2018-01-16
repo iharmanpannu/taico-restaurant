@@ -14,28 +14,41 @@
 
 <body>
     <div class="wrapper">
+        <nav id="main-nav">
+
+            <ul class="hamburger-tog">
+                <a class="close-tog" href=""><i class="fas fa-times"></i></a>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Recipes</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">About Taico</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
         <header class="header">
             <nav>
                 <ul class="nav-mobile">
-                    <li class="logo" data-aos="fade-up">Taico
+                    <li class="logo" data-aos="fade-down">Taico
                         <i class="fas fa-utensils"></i>
                     </li>
-                    <li data-aos="fade-up">
-                        <i class="fas fa-bars"></i>
+                    <li data-aos="fade-down">
+                        <a id="open-tog" href=""><i class="fas fa-bars"></i></a>
                     </li>
                 </ul>
             </nav>
+
+
             <nav>
-                <ul class="navigation">
-                    <li class="logo " data-aos="fade-up-right">Taico
+                <ul class="navigation ">
+                    <li class="logo " data-aos="fade-down">Taico
                         <i class="fas fa-utensils"></i>
                     </li>
-                    <li data-aos="fade-up-left"><a href="#">Shop</a></li>
-                    <li data-aos="fade-up-left"><a href="#">Recipes</a></li>
-                    <li data-aos="fade-up-left"><a href="#">News</a></li>
-                    <li data-aos="fade-up-left"><a href="#">About Taico</a></li>
-                    <li data-aos="fade-up-left"><a href="#">Contact</a></li>
-                    <li data-aos="fade-up-left"><a href="#">En<i class="fas fa-caret-down"></i> </a></li>
+                    <li data-aos="fade-down"><a href="#">Shop</a></li>
+                    <li data-aos="fade-down"><a href="#">Recipes</a></li>
+                    <li data-aos="fade-down"><a href="#">News</a></li>
+                    <li data-aos="fade-down"><a href="#">About Taico</a></li>
+                    <li data-aos="fade-down"><a href="#">Contact</a></li>
+                    <li data-aos="fade-down"><a href="#">En<i class="fas fa-caret-down"></i> </a></li>
                 </ul>
             </nav>
             <div class="headings">
@@ -56,10 +69,10 @@
                         <a>Book a Table</a>
                     </div>
                     <div class="b">
-                        <!-- <img class="res-img" src="src/images/res-about.jpg" alt="bar" border="0"> -->
+                        <!-- <img class="res-img" src="src/images/res-about.jpg" alt="bar" > -->
                     </div>
                     <div class="img-div  c">
-                        <!-- <img src="src/images/about.jpg" alt="two types of wine 1761613 1920" border="0" /> -->
+                        <!-- <img src="src/images/about.jpg" alt="two types of wine 1761613 1920"  /> -->
                     </div>
                     <div class="about-text  d" data-aos="fade-left">
                         <h2>About</h2>
@@ -79,31 +92,43 @@
         <section class="special ">
             <div class="float">
                 <div class="special-items">
-                    <div class="hello" data-aos="flip-left">
-                        <img src="https://thumb.ibb.co/fiVwrm/lasagna_2272454_1920.jpg" alt="lasagna" border="0" />
-                        <h5>Lasagna</h5>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        <h6>From $15.40</h6>
+                    <div data-aos="flip-left" class="special-divs">
+                        <img src="https://thumb.ibb.co/fiVwrm/lasagna_2272454_1920.jpg" alt="lasagna" />
+                        <div>
+                            <h5>Lasagna</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <h6>From $15.40</h6>
+                        </div>
+
 
                     </div>
-                    <div class="green" data-aos="flip-left">
-                        <img src="https://thumb.ibb.co/jnUHxR/sushi_2583775_1920.jpg" alt="sushi 2583775 1920" border="0" />
-                        <h5>Baricole</h5>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        <h6>From $15.40</h6>
-                    </div>
-                    <div data-aos="flip-left">
-                        <img src="https://thumb.ibb.co/nDy2E6/Vegan_Baked_Eggplant_Parmesan_Stacks_Square.jpg" alt="Vegan_Baked_Eggplant_Parmesan_Stacks_Square" border="0">
-                        <h5>Eggplant Parmigiana</h5>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        <h6>From $15.40</h6>
+                    <div data-aos="flip-left" class="special-divs">
+                        <img src="https://thumb.ibb.co/jnUHxR/sushi_2583775_1920.jpg" alt="sushi 2583775 1920" />
+                        <div>
+                            <h5>Baricole</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <h6>From $15.40</h6>
+                        </div>
 
                     </div>
-                    <div data-aos="flip-left">
-                        <img src="https://thumb.ibb.co/hki5j6/meatballs_1992354_1920.jpg" alt="meatballs 1992354 1920" border="0" />
-                        <h5>Spaghetti Meatballs</h5>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        <h6>From $15.40</h6>
+                    <div data-aos="flip-left" class="special-divs">
+                        <img src="https://thumb.ibb.co/nDy2E6/Vegan_Baked_Eggplant_Parmesan_Stacks_Square.jpg" alt="Vegan_Baked_Eggplant_Parmesan_Stacks_Square">
+                        <div>
+                            <h5>Eggplant Parmigiana</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <h6>From $15.40</h6>
+                        </div>
+
+
+                    </div>
+                    <div data-aos="flip-left" class="special-divs">
+                        <img src="https://thumb.ibb.co/hki5j6/meatballs_1992354_1920.jpg" alt="meatballs 1992354 1920" />
+                        <div>
+                            <h5>Spaghetti Meatballs</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <h6>From $15.40</h6>
+                        </div>
+
                     </div>
                 </div>
             </div>
@@ -188,7 +213,7 @@
                 </div>
             </div>
         </section>
-        <footer class="footer">
+        <footer class="footer" data-aos="fade-up">
             <h3>Social</h3>
             <hr>
             <ul>

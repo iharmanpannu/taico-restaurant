@@ -1,38 +1,21 @@
-.special {
-    position: relative;
-    height: 350px;
-    .float {
-        position: absolute;
-        top: 21%;
-        left: 11%;
-        right: 10%;
-        bottom: 0;
-        z-index: 999;
-    }
     .special-items {
-        height: 200px;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         text-align: center;
         img {
             width: 200px;
             height: 200px;
+            border: 0;
         }
         div {
             background: #fff;
         }
-        // .hello {
-        //     background: red;
-        // }
-        // .green {
-        //     background: greenyellow;
-        // }
         h5,
         h6 {
             text-transform: uppercase;
-            margin: 1.5em 0;
+            margin: .8em 0;
         }
         h5 {
             font-size: .8rem;
@@ -41,5 +24,47 @@
             font-size: .6rem;
             color: $col-gold;
         }
+        .special-divs {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            div {
+                border-bottom: 1px solid $col-gold;
+            }
+            &:last-child {
+                border: none;
+            }
+        }
     }
-}
+    
+    @media (min-width: 786px) {
+        .special {
+            position: relative;
+            height: 350px;
+            .float {
+                position: absolute;
+                top: 21%;
+                left: 11%;
+                right: 10%;
+                bottom: 0;
+                z-index: 999;
+            }
+            .special-items {
+                height: 200px;
+                flex-direction: row;
+                h5,
+                h6 {
+                    margin: 1.5em 0;
+                }
+                h5 {
+                    font-size: .8rem;
+                }
+                h6 {
+                    font-size: .6rem;
+                }
+                .special-divs {
+                    display: block;
+                }
+            }
+        }
+    }
