@@ -200,17 +200,23 @@ hr {
   align-items: center;
   padding: 1em; }
 
-.hamburger-tog,
 .hide-tog {
   display: none; }
 
 .hamburger-tog {
+  overflow: hidden;
+  display: block;
   flex-direction: column;
+  justify-content: center;
   text-align: center;
-  position: absolute;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  height: 100vh;
   background: #fe8a8a;
-  z-index: 100000; }
-  .hamburger-tog .close-tog {
+  z-index: 100000;
+  cursor: pointer; }
+  .hamburger-tog scroll-behavior .close-tog {
     margin-left: auto;
     padding: 10px; }
   .hamburger-tog li {
