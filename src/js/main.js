@@ -14,7 +14,5 @@ $(openBtn).click(() => {
 });
 
 $(closeBtn).click(() => {
-  $(nav)
-    .hide()
-    .slideUp(1000);
+  $(nav).slideUp(300);
 });

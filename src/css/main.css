@@ -136,7 +136,7 @@ html {
   height: 100%;
   max-width: 960px;
   margin: 0 auto;
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+  background: linear-gradient(rgba(0, 0, 0, 0.651), rgba(214, 200, 165, 0.6));
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -145,7 +145,7 @@ html {
   html a {
     font-family: "Bellefair", sans-serif;
     text-decoration: none;
-    font-size: 0.7rem; }
+    font-size: 0.9rem; }
   body p,
   body h4,
   body h5,
@@ -160,7 +160,7 @@ html {
   body li,
   html a,
   html li {
-    color: #FBFCF9;
+    color: #fbfcf9;
     text-transform: uppercase; }
   body p,
   html p {
@@ -178,12 +178,12 @@ html {
   html .wrapper {
     position: relative;
     border: 1px solid #222222;
-    background-color: #FBFCF9; }
+    background-color: #fbfcf9; }
 
 hr {
   width: 5%;
   height: 2px;
-  background-color: #D6C8A5;
+  background-color: #d6c8a5;
   border: none;
   margin: 0 auto; }
 
@@ -198,15 +198,36 @@ hr {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 1em; }
-  .mobile-nav-icons #open-tog {
-    cursor: pointer; }
-  .mobile-nav-icons #mobile-nav {
-    display: flex;
-    width: 100vw;
-    height: 100vh;
-    overflow: hidden;
-    position: fixed; }
+  padding: 2em; }
+  .mobile-nav-icons li {
+    font-size: 1.2em; }
+    .mobile-nav-icons li a {
+      font-size: 1.2em; }
+    .mobile-nav-icons li #open-tog {
+      cursor: pointer; }
+
+#mobile-nav {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  position: fixed;
+  background: #d6c8a5;
+  z-index: 10000;
+  text-align: center; }
+  #mobile-nav #close-tog {
+    padding: 3em 0;
+    margin-left: auto;
+    margin-right: 2em; }
+  #mobile-nav li {
+    margin: 1em 0; }
+    #mobile-nav li a {
+      font-size: 2em;
+      transition: all 300ms ease-in-out;
+      color: #3c363e; }
+      #mobile-nav li a:hover {
+        color: rgba(60, 54, 62, 0.425); }
 
 @media (min-width: 768px) {
   .hamburger-tog {
@@ -220,7 +241,8 @@ hr {
     flex-direction: row;
     justify-content: flex-end; }
   .logo {
-    margin-right: auto; }
+    margin-right: auto;
+    font-size: 1.2rem; }
   li,
   .logo {
     padding: 1em 0.6em; }
@@ -229,7 +251,7 @@ hr {
 
 .header {
   height: 100vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8));
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url("https://image.ibb.co/f4aXxR/pizza_2589569.jpg");
   filter: brightness(1.2);
   position: relative;
   background-attachment: fixed;
@@ -245,7 +267,7 @@ hr {
     text-align: center; }
     .header .headings h1,
     .header .headings h2 {
-      color: #FBFCF9; }
+      color: #fbfcf9; }
     .header .headings h1 {
       font-size: 5rem; }
     .header .headings h2 {
@@ -270,7 +292,7 @@ hr {
     grid-template-areas: "a b" "d c"; }
     .main-res-about .res-about .a {
       grid-area: a;
-      border-bottom: 1px solid #D6C8A5; }
+      border-bottom: 1px solid #d6c8a5; }
     .main-res-about .res-about .b {
       grid-area: b;
       background: url("../images/res-about.jpg");
@@ -298,10 +320,10 @@ hr {
       padding: .7em 0; }
       .main-res-about .res-about .res-text a {
         font-size: 10px;
-        color: #D6C8A5;
+        color: #d6c8a5;
         padding: 6px 10px;
         margin: 0 auto;
-        border: 1px solid #D6C8A5; }
+        border: 1px solid #d6c8a5; }
 
 @media (min-width: 768px) {
   .main-res-about {
@@ -347,7 +369,7 @@ hr {
   justify-content: center;
   text-align: center; }
   .specialities h2 {
-    color: #FBFCF9;
+    color: #fbfcf9;
     font-size: 2.5rem; }
 
 .special-items {
@@ -370,13 +392,13 @@ hr {
     font-size: .8rem; }
   .special-items h6 {
     font-size: .6rem;
-    color: #D6C8A5; }
+    color: #d6c8a5; }
   .special-items .special-divs {
     display: flex;
     flex-direction: row;
     justify-content: space-around; }
     .special-items .special-divs div {
-      border-bottom: 1px solid #D6C8A5; }
+      border-bottom: 1px solid #d6c8a5; }
     .special-items .special-divs:last-child {
       border: none; }
 
@@ -437,7 +459,7 @@ hr {
       padding: 1em 2em; }
       .menu .food-aperitives div h6,
       .menu .deserts div h6 {
-        color: #D6C8A5;
+        color: #d6c8a5;
         font-size: 1.4rem; }
       .menu .food-aperitives div p,
       .menu .food-aperitives div h6,
@@ -460,7 +482,7 @@ hr {
           width: 80%; }
         .menu .food-aperitives div h6,
         .menu .deserts div h6 {
-          color: #D6C8A5;
+          color: #d6c8a5;
           font-size: 1.4rem;
           float: right; } }
 
@@ -474,8 +496,8 @@ hr {
   .footer li {
     padding: 0 .5em; }
   .footer a {
-    color: #D6C8A5;
+    color: #d6c8a5;
     font-size: 1em; }
   .footer .author {
     margin-bottom: 3em;
-    color: #D6C8A5; }
+    color: #d6c8a5; }

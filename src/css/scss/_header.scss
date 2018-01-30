@@ -1,7 +1,8 @@
 .header {
   height: 100vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8));
-  //   url('https://image.ibb.co/f4aXxR/pizza_2589569.jpg')
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)),
+    url("https://image.ibb.co/f4aXxR/pizza_2589569.jpg");
+  //
   filter: brightness(1.2);
   position: relative;
   background-attachment: fixed;
