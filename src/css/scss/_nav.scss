@@ -1,42 +1,52 @@
 .logo {
-    text-transform: capitalize;
+  text-transform: capitalize;
 }
 
 .navigation {
-    display: none;
+  display: none;
 }
+.mobile-nav-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+  #open-tog {
+    cursor: pointer;
+  }
 
-.nav-mobile {
+  #mobile-nav {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1em;
-    #open-tog {
-        cursor: pointer;
-    }
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: fixed;
+  }
 }
 
 @media (min-width: 768px) {
-    .hamburger-tog {
-        display: none;
-    }
-    .nav-mobile {
-        display: none;
-    }
-    .navigation {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-    }
-    .logo {
-        margin-right: auto;
-    }
-    li,
-    .logo {
-        padding: 1em .6em;
-    }
-    a {
-        font-size: .8rem;
-    }
+  .hamburger-tog {
+    display: none;
+  }
+  .mobile-nav-icons {
+    display: none;
+  }
+  #mobile-nav {
+    display: none;
+  }
+  .navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  .logo {
+    margin-right: auto;
+  }
+  li,
+  .logo {
+    padding: 1em 0.6em;
+  }
+  a {
+    font-size: 0.8rem;
+  }
 }

@@ -136,16 +136,16 @@ html {
   height: 100%;
   max-width: 960px;
   margin: 0 auto;
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://image.ibb.co/hDUT46/cheese_1961530_1920.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
   body a,
   html a {
-    font-family: 'Bellefair', sans-serif;
+    font-family: "Bellefair", sans-serif;
     text-decoration: none;
-    font-size: .7rem; }
+    font-size: 0.7rem; }
   body p,
   body h4,
   body h5,
@@ -154,7 +154,7 @@ html {
   html h4,
   html h5,
   html h6 {
-    font-family: 'Bellefair', serif;
+    font-family: "Bellefair", serif;
     line-height: 1.3; }
   body a,
   body li,
@@ -173,7 +173,7 @@ html {
   html h2,
   html h3,
   html li {
-    font-family: 'Great Vibes', cursive; }
+    font-family: "Great Vibes", cursive; }
   body .wrapper,
   html .wrapper {
     position: relative;
@@ -193,19 +193,27 @@ hr {
 .navigation {
   display: none; }
 
-.nav-mobile {
+.mobile-nav-icons {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   padding: 1em; }
-  .nav-mobile #open-tog {
+  .mobile-nav-icons #open-tog {
     cursor: pointer; }
+  .mobile-nav-icons #mobile-nav {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    position: fixed; }
 
 @media (min-width: 768px) {
   .hamburger-tog {
     display: none; }
-  .nav-mobile {
+  .mobile-nav-icons {
+    display: none; }
+  #mobile-nav {
     display: none; }
   .navigation {
     display: flex;
@@ -215,13 +223,13 @@ hr {
     margin-right: auto; }
   li,
   .logo {
-    padding: 1em .6em; }
+    padding: 1em 0.6em; }
   a {
-    font-size: .8rem; } }
+    font-size: 0.8rem; } }
 
 .header {
   height: 100vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url("https://image.ibb.co/f4aXxR/pizza_2589569.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8));
   filter: brightness(1.2);
   position: relative;
   background-attachment: fixed;

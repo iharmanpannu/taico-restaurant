@@ -1,7 +1,20 @@
 AOS.init({ duration: 1000 });
 
+const nav = $("#mobile-nav");
+const closeBtn = $("#close-tog");
+const openBtn = $("#open-tog");
+$(nav).hide();
 
+$(openBtn).click(() => {
+  if ($(window).width() <= 786) {
+    $(nav)
+      .slideDown(500)
+      .show();
+  }
+});
 
-const nav = document.querySelector('.hamburger-tog');
-const closeBtn = document.querySelector(".close-tog");
-const openBtn = document.querySelector(".open-tog");
+$(closeBtn).click(() => {
+  $(nav)
+    .hide()
+    .slideUp(1000);
+});

@@ -1,1 +1,0 @@
-AOS.init({duration:1e3});const nav=document.querySelector(".hamburger-tog"),closeBtn=document.querySelector(".close-tog"),openBtn=document.querySelector(".open-tog");
