@@ -10,9 +10,11 @@ $(openBtn).on("click", () => {
     $(nav)
       .slideDown(500)
       .show();
+    $("body").css("position", "fixed");
   }
 });
 
 $(closeBtn).on("click", () => {
   $(nav).slideUp(300);
+  $("body").css("position", "relative");
 });
