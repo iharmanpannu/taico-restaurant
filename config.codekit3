@@ -1245,11 +1245,11 @@
 		"oAP": "\/build\/.gitignore",
 		"oF": 0
 		},
-	"\/index.html": {
+	"\/README.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/index.html",
+		"oAP": "\/README.html",
 		"oF": 0
 		},
 	"\/README.md": {
@@ -1270,370 +1270,123 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"\/src\/css\/main.css": {
+	"\/src\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/src\/index.html",
+		"oF": 0
+		},
+	"\/src\/src\/css\/main.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 1,
-		"oAP": "\/src\/css\/main-min.css",
+		"oA": 0,
+		"oAP": "\/src\/src\/css\/main-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/src\/css\/main.scss": {
-		"aP": 0,
+	"\/src\/src\/css\/reset.css": {
+		"aP": 1,
 		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
+		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/src\/css\/main.css",
+		"oAP": "\/src\/src\/css\/reset-min.css",
 		"oF": 0,
-		"oS": 0,
-		"uL": 1
+		"oS": 3
 		},
-	"\/src\/css\/scss\/_about.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/src\/css\/scss\/_about.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/src\/css\/scss\/_footer.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/src\/css\/scss\/_footer.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/src\/css\/scss\/_global.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/src\/css\/scss\/_global.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/src\/css\/scss\/_header.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/src\/css\/scss\/_header.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/src\/css\/scss\/_menu.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/src\/css\/scss\/_menu.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/src\/css\/scss\/_nav.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/src\/css\/scss\/_nav.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/src\/css\/scss\/_reset.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/src\/css\/scss\/_reset.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/src\/css\/scss\/_special.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/src\/css\/scss\/_special.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/src\/css\/scss\/_specialities.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/src\/css\/scss\/_specialities.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/src\/css\/scss\/_variables.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/src\/css\/scss\/_variables.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/src\/images\/5760x3840-1284096-breakfast.jpg": {
+	"\/src\/src\/img\/about.jpg": {
 		"ft": 16384,
-		"iS": 3826176,
+		"iS": 28522,
 		"oA": 0,
-		"oAP": "\/src\/images\/5760x3840-1284096-breakfast.jpg",
+		"oAP": "\/src\/src\/img\/about.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
-	"\/src\/images\/about.jpg": {
+	"\/src\/src\/img\/cheese.jpg": {
 		"ft": 16384,
-		"iS": 54689,
+		"iS": 781311,
 		"oA": 0,
-		"oAP": "\/src\/images\/about.jpg",
+		"oAP": "\/src\/src\/img\/cheese.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
-	"\/src\/images\/background img.png": {
+	"\/src\/src\/img\/headerpic.png": {
 		"ft": 32768,
-		"iS": 412173,
+		"iS": 932274,
 		"oA": 0,
-		"oAP": "\/src\/images\/background img.png",
+		"oAP": "\/src\/src\/img\/headerpic.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/images\/background-3007395_1920.jpg": {
+	"\/src\/src\/img\/pizza-2589569.jpg": {
 		"ft": 16384,
-		"iS": 912502,
+		"iS": 742214,
 		"oA": 0,
-		"oAP": "\/src\/images\/background-3007395_1920.jpg",
+		"oAP": "\/src\/src\/img\/pizza-2589569.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
-	"\/src\/images\/cheese.jpg": {
-		"ft": 16384,
-		"iS": 1001686,
-		"oA": 0,
-		"oAP": "\/src\/images\/cheese.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"\/src\/images\/e66040bc7c97cd78f77d0d9bb6de1b01.png": {
+	"\/src\/src\/img\/pizzaonside.png": {
 		"ft": 32768,
-		"iS": 1057878,
+		"iS": 137809,
 		"oA": 0,
-		"oAP": "\/src\/images\/e66040bc7c97cd78f77d0d9bb6de1b01.png",
+		"oAP": "\/src\/src\/img\/pizzaonside.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/images\/eggpant.jpg": {
-		"ft": 16384,
-		"iS": 509154,
-		"oA": 0,
-		"oAP": "\/src\/images\/eggpant.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"\/src\/images\/food-1050813.jpg": {
-		"ft": 16384,
-		"iS": 1288740,
-		"oA": 0,
-		"oAP": "\/src\/images\/food-1050813.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"\/src\/images\/lasagna-2272454_1920.jpg": {
-		"ft": 16384,
-		"iS": 456471,
-		"oA": 0,
-		"oAP": "\/src\/images\/lasagna-2272454_1920.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"\/src\/images\/meal.jpg": {
-		"ft": 16384,
-		"iS": 403825,
-		"oA": 0,
-		"oAP": "\/src\/images\/meal.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"\/src\/images\/meatballs-1992354_1920.jpg": {
-		"ft": 16384,
-		"iS": 413841,
-		"oA": 0,
-		"oAP": "\/src\/images\/meatballs-1992354_1920.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"\/src\/images\/pizza-2589569.jpg": {
-		"ft": 16384,
-		"iS": 6905142,
-		"oA": 0,
-		"oAP": "\/src\/images\/pizza-2589569.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"\/src\/images\/pizza_slider-calabresa.png": {
+	"\/src\/src\/img\/plate-1.png": {
 		"ft": 32768,
-		"iS": 872152,
+		"iS": 374684,
 		"oA": 0,
-		"oAP": "\/src\/images\/pizza_slider-calabresa.png",
+		"oAP": "\/src\/src\/img\/plate-1.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/images\/pizzaonside.png": {
-		"ft": 32768,
-		"iS": 428321,
+	"\/src\/src\/img\/res-about.jpg": {
+		"ft": 16384,
+		"iS": 100818,
 		"oA": 0,
-		"oAP": "\/src\/images\/pizzaonside.png",
+		"oAP": "\/src\/src\/img\/res-about.jpg",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/src\/src\/img\/spcback.png": {
+		"ft": 32768,
+		"iS": 1646988,
+		"oA": 0,
+		"oAP": "\/src\/src\/img\/spcback.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/src\/images\/plate-1.png": {
-		"ft": 32768,
-		"iS": 1364661,
-		"oA": 0,
-		"oAP": "\/src\/images\/plate-1.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/src\/images\/res-about.jpg": {
-		"ft": 16384,
-		"iS": 106469,
-		"oA": 0,
-		"oAP": "\/src\/images\/res-about.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"\/src\/images\/sushi-2583775_1920.jpg": {
-		"ft": 16384,
-		"iS": 361162,
-		"oA": 0,
-		"oAP": "\/src\/images\/sushi-2583775_1920.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"\/src\/images\/two_types_of_wine_1761613_1920.jpg": {
-		"ft": 16384,
-		"iS": 203396,
-		"oA": 0,
-		"oAP": "\/src\/images\/two_types_of_wine_1761613_1920.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"\/src\/images\/vegetables-2410708_1920.jpg": {
-		"ft": 16384,
-		"iS": 753374,
-		"oA": 0,
-		"oAP": "\/src\/images\/vegetables-2410708_1920.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"\/src\/js\/jquery-3.3.1.min.js": {
+	"\/src\/src\/main.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "\/src\/js\/jquery-3.3.1.min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/src\/js\/main.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "\/src\/js\/main-min.js",
+		"oAP": "\/src\/src\/main-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
